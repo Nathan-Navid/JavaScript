@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <h1 onclick="clicked()">Click me!</h1>
+    <p onclick="clicked(this)">Change me!</p>
+    <button onclick="onTooff(this)">ON</button>
+    <h3 onmouseover="hoveron(this)" onmouseout = "hoveron(this)">Blue</h3>
+    
+    <p># of Like <span id="likes1">1</span></p>
+    <button onclick="increment(`likes1`)">Like</button>
+    <button onclick="decrement(`likes1`)">dislike</button><br>
+
+    <p># of Like <span id="likes2">1</span></p>
+    <button onclick="increment(`likes2`)">Like</button>
+
+    <p># of Like <span id="likes3">1</span></p>
+    <button onclick="increment(`likes3`)">Like</button>
+</body>
+</html>

@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    width: 100%;
+    font-family: sans-serif;
+}
+
+/* Top Nav */
+
+#topnav{
+    background-color: rgb(159,197,248);
+    color: white;
+}
+h1{
+    font-size: 50px;
+}
+.header{
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.cities{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    font-size: 30px;
+    list-style: none;
+    cursor: pointer;
+}
+
+/* Middle */
+
+#middle{
+    margin: 0px auto;
+    padding: 20px 0px 15px 0px;
+    border-bottom: 3px solid black;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+h2{
+    font-size: 35px;
+    font-weight: light;
+}
+label{
+    font-size: 20px;
+}
+select{
+    padding: 5px;
+    font-size: larger;
+}
+
+/* Main part */
+
+#main{
+    margin: 0 auto;
+    padding: 30px 0px 20px 0px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.column1, .column2, .column3, .column4{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 350px;
+    background-color: rgb(238,238,238);
+    padding: 20px;
+}
+.degree{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+h3{
+    font-size: 30px;
+}
+.column1 p, .column2 p, .column3 p, .column4 p{
+    font-weight: bold;
+    font-size: larger;
+}
+img{
+    width: 150px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.minTemp{
+    color: rgb(207,42,39);
+}
+.maxTemp{
+    color: rgb(43,120,228);
+}
+
+/* Cookie part */
+
+#cookie{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid black;
+    background-color: rgb(238,238,238);
+
+}
+#cookie img{
+    width: 100px;
+    margin-left: 50px;
+}
+.paragraph p{
+    font-size: 22px;
+}
+.button{
+    padding: 6px;
+    margin-right: 70px;
+    background-color: rgb(159,197,248);
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
